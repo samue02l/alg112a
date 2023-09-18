@@ -1,0 +1,19 @@
+# 參考了chatgpt,更改了參數
+
+from datetime import datetime
+
+a = int(input("請輸入一個數字："))
+
+def fib(a):
+    if a <= 1:
+        return a
+    else:
+        return fib(a-2) + fib(a-1)
+
+startTime = datetime.now()
+result = fib(a)
+endTime = datetime.now()
+seconds = (endTime - startTime).total_seconds()
+
+print(f'斐波那契數列中第 {a} 個數字是 {result}。')
+print(f'程式執行時間：{seconds} 秒。')
