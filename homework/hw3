@@ -1,0 +1,22 @@
+//參考了ChapGPT，并且複製。使用了O(n!)，有修改一點點。
+
+def permutations(n):
+    a = list(range(n))
+    result = []
+    backtrack(a, [], result)
+    return result
+
+def backtrack(a, path, result):
+    if len(path) == len(a):
+        result.append(path[:])
+        return
+    for b in a:
+        if b not in path:
+            path.append(b)
+            backtrack(a, path, result)
+            path.pop()
+
+n = int(input("please enter the integer："))
+result = permutations(n)
+for permutation in result:
+    print(permutation)
