@@ -1,0 +1,29 @@
+圖靈獎得主：
+萊斯利·瓦利安特，（英文名）Leslie Valiant
+#他於2010年獲得該獎項，以表彰他在計算機科學領域的重要貢獻
+
+得獎的主要原因：
+他對計算機理論的貢獻，特別是在計算機學習方面的成就。他的研究對於理解計算機如何學習和處理信息的能力有著深遠的影響。
+
+研究領域：
+計算學習理論
+數學
+神經科學
+
+經典論文：
+《A Theory of the Learnable》
+#該論文於1983年發表在《Communications of the ACM》期刊上。這篇論文提出了「PAC學習」（Probably Approximately Correct Learning）的理論框架，該框架描述了在給定有限數據的情況下，計算機如何從中學習並做出正確的預測。這一理論對於機器學習的發展起到了重要的推動作用。
+
+論文：
+《Decision Procedures for Families of Deterministic Pushdown Automata》
+
+計算機複雜性理論的貢獻：
+他提出了「計算模型」（computational model）的概念，該概念對於研究計算問題的可解性和難度提供了框架。他的研究對於理解計算機的計算能力和限制具有重要意義。
+
+結論：
+雖然我無法提供Valiant的具體程式碼，但他的研究成果對於計算機科學領域的發展產生了深遠的影響。他的工作不僅推動了機器學習和計算複雜性理論的發展，也為我們對計算機如何學習和處理信息的能力提供了更深入的理解。
+
+參考資料：
+https://en.wikipedia.org/wiki/Leslie_Valiant
+https://www.youtube.com/watch?v=o7M1L6a3yac
+https://dl.acm.org/action/doSearch?AllField=A+Theory+of+the+Learnable
