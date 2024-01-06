@@ -1,4 +1,4 @@
-//參考了ChapGPT，并且複製。使用了O(n!)，有修改一點點。
+//參考了ChapGPT，并且複製。使用了O(n!)。
 
 def permutations(n):
     a = list(range(n))
